@@ -1,3 +1,23 @@
+gstreamer1.0-rockchip-extra (20190318-1) UNRELEASED; urgency=medium
+
+  * ab5f747 rkv4l2: ext: fix build error
+  * af3f56e rkcamsrc: use 50hz flicker_reduction_mode
+  * 010cbd4 rkv4l2: fix some compile warnings
+  * 146f4a6 rkv4l2: add linux v4l2 headers from libv4l
+  * abaace9 fix package name
+  * 5b4ba1a po: add Makevars
+  * 9b5e4b4 kmssink: force fullscren when display ratio is disabled
+  * efa9445 readme: add display-ratio
+  * cee90b1 rkximagesink: allow disable dispaly ratio
+  * 82bf6a5 kmssink: allow disable dispaly ratio
+  * 7563ff6 rkximage: correct display location
+  * 14ffca1 rkisp1-lib: fix measurement late detect
+  * 99af643 rkisp1-lib: do not return false when setting digital gain
+  * 2510023 librk_aiq: fix arm64 binary
+  * 5e84dc7 lirk_aiq: fix build issue in yocto
+
+ -- Caesar Wang <wxt@rock-chips.com>  Wed, 18 Mar 2019 17:13:38 +0800
+
 gstreamer1.0-rockchip-extra (20180115-1) UNRELEASED; urgency=medium
 
   * rkcamsrc: add AE/AWB support
